@@ -1,13 +1,5 @@
 def f(a):
-    b = a[0].isupper()
-    for i in range(1, len(a)):
-        c = a[i].islower()
-        if c:
-            continue
-        else:
-            return False
-            break
-    if b and c:
+    if a[0].isupper() and a[1:].islower():
         return True
     return False
 
