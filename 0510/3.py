@@ -1,7 +1,5 @@
 def f(a):
-    if a[0].isupper() and a[1:].islower():
-        return True
-    return False
+    return a[0].isupper() and a[1:].islower()
 
 
 print(f("Rudolf"))
