@@ -4,4 +4,4 @@ def f(a):
     return c
 
 
-print(f("Kebu Rudolf Eduard"))
+print(f("Kebu Rudolf Eduardovich"))

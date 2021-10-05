@@ -7,4 +7,4 @@ def f(a):
     return q
 
 
-print(f(["Kebu Rudolf Eduard", "Ku Rudolf Eduard", "Ku Oudolf Eduard"]))
+print(f(["Kebu Rudolf Eduardovich", "Ku Rudolf Eduardovich", "Ku Oudolf Eduardovich"]))
