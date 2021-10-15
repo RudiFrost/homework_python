@@ -1,2 +1,3 @@
-
-print("{0:^10d}{1:^10d}".format(22,33))
+with open("1.txt", "r") as f:
+    a = f.read()
+    print(a)
