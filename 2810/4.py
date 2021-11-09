@@ -7,7 +7,7 @@ def myBar(*args, **kwargs):
         y = args[1]
         barlist = plt.bar(x, y)
         for i in range(len(x)):
-            color = 'color' + str(i)
+            color = "color" + str(i)
             if color in kwargs:
                 barlist[i].set_color(kwargs[color])
     except Exception as e:
@@ -15,4 +15,4 @@ def myBar(*args, **kwargs):
     plt.show()
 
 
-myBar(['A', "B", 'C'], [5, 10, 15], color0='r', color2='g')
+myBar(["A", "B", "C"], [5, 10, 15], color0="r", color2="g")
