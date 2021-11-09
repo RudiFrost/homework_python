@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 def bar1():
     a = ""
-    while a != 'exit':
-        xs = input('x: ')
-        ys = input('y: ')
+    while a != "exit":
+        xs = input("x: ")
+        ys = input("y: ")
         color = input("Color(r, g, b): ")
         try:
             x = []
@@ -19,8 +19,8 @@ def bar1():
             else:
                 plt.plot(x, y)
         except:
-            print('._.')
-        a = input('Введите exit, если хотите вывести график ')
+            print("._.")
+        a = input("Введите exit, если хотите вывести график ")
     plt.show()
 
 
