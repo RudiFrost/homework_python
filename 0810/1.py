@@ -41,6 +41,5 @@ def f(list_1):
           round(kol_0 * 100 / len(list_1), 1), "%", sep="")
 
 
-print(gen_string(5))
 f([gen_string(45), gen_string(45), gen_string(45), gen_string(45), gen_string(4), gen_string(10), gen_string(3),
    gen_string(17), gen_string(105), gen_string(45), gen_string(5), gen_string(4)])
